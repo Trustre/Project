@@ -33,11 +33,6 @@ body{
     }
 }
 
-@media screen and (max-width: 300px) {
-    #connect{
-        font-size: 30px;
-    }
-}
 
 #note{
     color:rgb(59, 67, 99);
@@ -209,6 +204,10 @@ body{
     #navi{
         font-size: 15px;
     }
+    .popup{
+        position:absolute;
+        top:400px;
+    }
   }
 
 .wallet{
@@ -222,4 +221,11 @@ body{
     left: 50%;
     transform: translate(-50%, 0);
     top: 100px;
+}
+
+@media screen and (max-width: 300px) {
+    #connect{
+        font-size: 30px;
+    }
+   
 }
